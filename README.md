@@ -146,12 +146,12 @@ repeat {
 # Bonus =)
 
 ***
-## Question 16
+## Question 1
 
 What's the difference between `break` and `continue`?  Give an example that demonstrates their differences.
 
 ***
-## Question 17
+## Question 2
 
 Without using Xcode, what will the loop below print? Select all that apply.
 
@@ -176,7 +176,7 @@ for i in 1...10 {
 []10
 
 ***
-## Question 18
+## Question 3
 
 Without using Xcode, what will the loop below print? Select all that apply.
 
@@ -201,7 +201,7 @@ for i in 1...10 {
 []10
 
 ***
-## Question 19
+## Question 4
 
 Without using Xcode, what will the loop below print?  Explain below.
 
@@ -217,17 +217,17 @@ outerloop: for x in 1...3 {
 ```
 
 ***
-## Question 20
+## Question 5
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** x and y are both integers.
 
 ***
-## Question 21
+## Question 6
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** the difference of x and y is at least 5, and x and y are both integers.
 
 ***
-## Question 22
+## Question 7
 
 Print the first `N` square numbers. A **square number**, also called perfect square, is an integer that is obtained by squaring some other integer; in other words, it is the product of some integer with itself (ex. 1 = 1*1, 4 = 2 * 2, 9 = 3* 3 …).
 
@@ -244,7 +244,7 @@ Output:
 ```
 
 ***
-## Question 23
+## Question 8
 
 Given an integer N draw a square of N x N asterisks. Look at the examples.
 
