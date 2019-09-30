@@ -13,31 +13,54 @@
 ## Question 1
 
 Write code that prints all the numbers from 1 to 150, **inclusive.**
+```
+for num in 1...150 {
+ print(num)
+}
+```
 
 ***
 ## Question 2
 
 Write code that prints all the numbers from 142 to 159, **exclusive.**
+```
+for num in 142..<159 {
+ print(num)
+}
+```
 
 ***
 ## Question 3
 
 Write code that prints only the even numbers from 15 to 80, **inclusive.**
-
+```
+for number in 15...80 where number % 10 == 5  {
+print("\(number)}
+```
 ***
 ## Question 4
 
 Write code that prints only the odd numbers from 19 to 51, **inclusive.**
-
+```
+for num in 15...80 {
+ print(num)
+}
+```
 ***
 ## Question 5
 
 Write code that prints all the numbers that end in a **5** from 1 to 100, **exclusive.**
-
+```
+for number in 1..<100 where number % 10 == 5  {
+print("\(number)
+```
 ***
 ## Question 6
 
 Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive.**
+```
+
+```
 
 ***
 ## Question 7
@@ -59,6 +82,9 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 Given a range of numbers from 20 to 150 inclusive, print out all the numbers that follows these conditions:
 
 `Numbers that end with a 4`
+"'
+4,14,24, 34,44,54,64,74,84,94,104,114,124,134,144
+'"
 
 ***
 ## Question 10
@@ -66,6 +92,10 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 Given a range of numbers from 20 to 150, print out all the numbers that follows these conditions:
 
 `Print out numbers: 31, 35, 40 to 60.`
+```
+MY ANSWER IS:
+
+```
 
 ***
 ## Question 11
@@ -81,7 +111,11 @@ while (i > 3) {
 
 // Your explanation here
 ```
+```
+MY ANSWER:
 
+This code will run infintely becuse there is no limit, as to what number it should stop at 
+```
 ***
 ## Question 12
 
@@ -92,6 +126,14 @@ var i = 5
 
 while (i > 3) {
     i += 1
+}
+```
+```
+for i == 9 {
+print("Stop")
+break
+} else {
+print (\(i)
 }
 ```
 
@@ -120,6 +162,9 @@ while (i > 3) {
     i += 1
 }
 ```
+```
+
+```
 
 ***
 ## Question 15
@@ -141,6 +186,9 @@ repeat {
     print("i = \(i)")
     i += 1
 } while i <= 10
+```
+```
+The second loop is technically a repeat while loop. There outputs should be the same because the values used are both 1 and they increment up at the same amount.
 ```
 
 # Bonus =)
